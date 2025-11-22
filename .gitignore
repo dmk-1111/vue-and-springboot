@@ -1,0 +1,75 @@
+# =========================================
+# SPRING BOOT (Backend)
+# =========================================
+
+# Maven target folder
+springboot/target/
+
+# Maven wrapper
+springboot/.mvn/wrapper/maven-wrapper.jar
+
+# Spring STS files
+springboot/.apt_generated
+springboot/.classpath
+springboot/.factorypath
+springboot/.project
+springboot/.settings/
+springboot/.springBeans
+springboot/.sts4-cache
+
+# IntelliJ IDEA
+springboot/.idea/
+springboot/*.iml
+springboot/*.ipr
+springboot/*.iws
+
+# NetBeans
+springboot/nbproject/private/
+springboot/nbbuild/
+springboot/dist/
+springboot/nbdist/
+springboot/.nb-gradle/
+
+# VS Code
+springboot/.vscode/
+
+
+# =========================================
+# VUE (Frontend)
+# =========================================
+
+# Node modules
+vue/node_modules/
+
+# Build output
+vue/dist/
+vue/dist-ssr/
+vue/coverage/
+
+# Logs
+vue/logs/
+vue/*.log
+vue/npm-debug.log*
+vue/yarn-debug.log*
+vue/yarn-error.log*
+vue/pnpm-debug.log*
+vue/lerna-debug.log*
+
+# Editor / OS
+vue/.idea/
+vue/.vscode/
+vue/.DS_Store
+vue/*.suo
+vue/*.ntvs*
+vue/*.njsproj
+vue/*.sln
+vue/*.sw?
+vue/*.tsbuildinfo
+vue/.eslintcache
+
+# Cypress
+vue/cypress/videos/
+vue/cypress/screenshots/
+
+# Vitest
+vue/__screenshots__/
