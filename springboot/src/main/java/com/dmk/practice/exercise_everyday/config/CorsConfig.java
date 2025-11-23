@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**") // Adjust mapping as needed
-                        .allowedOrigins("http://localhost:8080") // Your Vue app's origin
+                        .allowedOrigins("http://localhost:5173") // Your Vue app's origin
                         .allowedMethods("GET", "POST", "PUT", "DELETE");
             }
         };
